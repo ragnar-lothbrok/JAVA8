@@ -1,0 +1,12 @@
+Mongo db console commands
+
+//showing the existing dbs..
+show dbs
+//use test
+switching to db test, (only creating it when actually adding new data)
+//prompts the name of the working db now
+db
+//the fllw would prompt the count(), in the link2 collection, in the current db...
+>db.links2.count()
+//inserting a record in links2
+db.links2.insert({title:"unn titulo", url:"", comment:"", tags:["un primer tag", "un segundo tag"], saved_on: new Date})
